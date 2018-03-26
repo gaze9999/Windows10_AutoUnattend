@@ -28,7 +28,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO =============== Installing nVidia VGA Drivers ================
 ECHO.
-%SYSTEMDRIVE%\Driver\VGA_nVidia\Win10_64\setup.exe -s -noreboot -clean
+%SYSTEMDRIVE%\Driver\VGA_nVidia\setup.exe -s -noreboot -clean
 timeout /t 3 /nobreak
 
 ECHO.
