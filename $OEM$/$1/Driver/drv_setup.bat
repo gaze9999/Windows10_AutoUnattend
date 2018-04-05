@@ -46,7 +46,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ============== Installing Intel LAN Drivers ==================
 ECHO.
-REM %SYSTEMDRIVE%\Driver\LAN_Intel\PROWinx64\APPS\SETUP\SETUPBD\Winx64\SetupBD.exe /s /nr
+%SYSTEMDRIVE%\Driver\LAN_Intel\PROWinx64\APPS\SETUP\SETUPBD\Winx64\SetupBD.exe /s /nr
 timeout /t 3 /nobreak
 
 ECHO.
