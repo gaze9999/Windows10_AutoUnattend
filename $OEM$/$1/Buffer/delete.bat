@@ -8,6 +8,7 @@ powercfg /s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 powercfg -x -monitor-timeout-ac 0
 powercfg -x -monitor-timeout-dc 0
 regedit -s "C:\Buffer\Disable_Sleep.reg"
+powercfg -h off
 
 ECHO.
 ECHO ================== Enable Desktop Icon ==================
