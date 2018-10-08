@@ -10,7 +10,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ====================== Installing JAVA8 =========================
 ECHO.
-%SYSTEMDRIVE%\OEM_Install\jre-8u171-windows-x64.exe /s
+%SYSTEMDRIVE%\OEM_Install\jre-8u181-windows-x64.exe /s
 timeout /t 3 /nobreak
 
 ECHO.
@@ -40,4 +40,4 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ================== Installing Adobe Reader DC ===================
 ECHO. 
-%SYSTEMDRIVE%\OEM_Install\AcroRdrDC1800920044_zh_TW.exe /msi EULA_ACCEPT=YES /quiet /qn -noreboot
+%SYSTEMDRIVE%\OEM_Install\AcroRdrDC1900820071_zh_TW.exe /msi EULA_ACCEPT=YES /quiet /qn -noreboot

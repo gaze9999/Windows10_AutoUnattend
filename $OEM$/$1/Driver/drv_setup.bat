@@ -22,7 +22,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ================ Installing Intel VGA Drivers ================
 ECHO.
-%SYSTEMDRIVE%\Driver\VGA_Intel\Setup.exe -s
+%SYSTEMDRIVE%\Driver\VGA_Intel\igxpin.exe -s
 timeout /t 3 /nobreak
 
 ECHO.
@@ -31,13 +31,6 @@ ECHO.
 %SYSTEMDRIVE%\Driver\VGA_nVidia\setup.exe -s -noreboot -clean
 timeout /t 3 /nobreak
 
-ECHO.
-ECHO ================ Installing AMD VGA Drivers ==================
-ECHO.
-%SYSTEMDRIVE%\Driver\VGA_AMD\64-bit\Setup.exe -INSTALL
-timeout /t 3 /nobreak
-
-ECHO.
 ECHO ============ Installing Realtek Audio Drivers ================
 ECHO.
 %SYSTEMDRIVE%\Driver\Audio_Realtek\Setup.exe -s
