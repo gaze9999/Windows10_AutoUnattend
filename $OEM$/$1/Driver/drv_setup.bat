@@ -20,6 +20,12 @@ ECHO.
 timeout /t 3 /nobreak
 
 ECHO.
+ECHO ============== Installing AMD SATA Drivers =================
+ECHO.
+pnputil -a %SYSTEMDRIVE%\Driver\AMD_SATA\amd_sata.inf
+timeout /t 3 /nobreak
+
+ECHO.
 ECHO ================ Installing Intel VGA Drivers ================
 ECHO.
 %SYSTEMDRIVE%\Driver\VGA_Intel\igxpin.exe -s
