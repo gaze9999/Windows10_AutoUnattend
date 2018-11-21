@@ -93,5 +93,5 @@
             <UserLocale>zh-TW</UserLocale>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:e:/sources/install.wim#Windows 10 Home" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:d:/1809/install1809.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
