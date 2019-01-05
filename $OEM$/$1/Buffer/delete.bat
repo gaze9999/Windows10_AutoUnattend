@@ -23,3 +23,4 @@ RD "C:\Driver" /s /q
 RD "C:\OEM_Install" /s /q
 RD "C:\Windows\ConfigSetRoot" /s /q
 RD "C:\Buffer" /s /q
+RD "C:\office" /s /q
