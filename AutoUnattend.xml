@@ -34,13 +34,18 @@
                     <Description>Install Application</Description>
                     <CommandLine>%SYSTEMDRIVE%\OEM_Install\setup.bat</CommandLine>
                 </SynchronousCommand>
-	    <SynchronousCommand wcm:action="add">
+				<SynchronousCommand wcm:action="add">
                     <Order>3</Order>
+                    <Description>Install Office</Description>
+                    <CommandLine>%SYSTEMDRIVE%\Office\Install.bat</CommandLine>
+                </SynchronousCommand>
+                <SynchronousCommand wcm:action="add">
+                    <Order>4</Order>
                     <Description>Delete All temp folder</Description>
                     <CommandLine>%SYSTEMDRIVE%\Buffer\delete.bat</CommandLine>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
-                    <Order>4</Order>
+                    <Order>5</Order>
                     <CommandLine>Shutdown -r -t 60</CommandLine>
                     <Description>Reboot</Description>
                 </SynchronousCommand>
@@ -75,9 +80,15 @@
                 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
                 <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
             </OOBE>
+            <DesktopOptimization>
+                <ShowWindowsStoreAppsOnTaskbar>false</ShowWindowsStoreAppsOnTaskbar>
+            </DesktopOptimization>
+            <OEMInformation>
+                <SupportProvider>GZ</SupportProvider>
+            </OEMInformation>
         </component>
         <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <InputLocale>zh-TW</InputLocale>
+            <InputLocale>zh-TW:en-US</InputLocale>
             <SystemLocale>zh-TW</SystemLocale>
             <UILanguage>zh-TW</UILanguage>
             <UILanguageFallback>zh-TW</UILanguageFallback>
@@ -86,7 +97,7 @@
     </settings>
     <settings pass="specialize">
         <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <InputLocale>zh-TW</InputLocale>
+            <InputLocale>zh-TW:en-US</InputLocale>
             <SystemLocale>zh-TW</SystemLocale>
             <UILanguage>zh-TW</UILanguage>
             <UILanguageFallback>zh-TW</UILanguageFallback>
