@@ -26,7 +26,7 @@
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>%SYSTEMDRIVE%\Driver\drv_setup.bat</CommandLine>
-                    <Description>Install Intel driver</Description>
+                    <Description>Install drivers</Description>
                     <Order>1</Order>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
@@ -34,7 +34,7 @@
                     <Description>Install Application</Description>
                     <CommandLine>%SYSTEMDRIVE%\OEM_Install\setup.bat</CommandLine>
                 </SynchronousCommand>
-                <SynchronousCommand wcm:action="add">
+	    <SynchronousCommand wcm:action="add">
                     <Order>3</Order>
                     <Description>Delete All temp folder</Description>
                     <CommandLine>%SYSTEMDRIVE%\Buffer\delete.bat</CommandLine>
@@ -93,5 +93,5 @@
             <UserLocale>zh-TW</UserLocale>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:d:/1809/install1809.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:d:/oobe/1809/install.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
