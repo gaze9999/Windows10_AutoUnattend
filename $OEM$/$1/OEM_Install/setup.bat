@@ -40,7 +40,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ====================== Installing 7z ========================
 ECHO.
-%SYSTEMDRIVE%\OEM_Install\7z1805-x64.exe /S
+%SYSTEMDRIVE%\OEM_Install\7z1806-x64.exe /S
 timeout /t 3 /nobreak
 
 ECHO.
