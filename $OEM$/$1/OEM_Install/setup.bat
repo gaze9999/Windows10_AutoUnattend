@@ -10,7 +10,7 @@ timeout /t 3 /nobreak
 ECHO.
 ECHO ====================== Installing JAVA8 =========================
 ECHO.
-%SYSTEMDRIVE%\OEM_Install\jre-8u191-windows-x64.exe /s
+%SYSTEMDRIVE%\OEM_Install\jre-8u201-windows-x64.exe /s
 timeout /t 3 /nobreak
 
 ECHO.
